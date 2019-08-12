@@ -1,0 +1,10 @@
+Please follow the below steps to add the BGS WMS layers in QGIS
+
+A) Free BGS WMS Services
+    1. Download the bgs_wms_connections.xml
+    2. From the menu Layer -> Add Layer -> Add WMS/WMTS Layer
+    3. Press Load and select the bgs_wms_connections.xml
+    4. Press "Select all" button and Import
+
+B) Geovation available BGS WMS Services
+    TO DO
