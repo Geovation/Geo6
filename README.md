@@ -1,4 +1,5 @@
 # Geo6
+
 ## Usage examples of the services, apis, data Geo6 provide through Geovation
 
 Geo 6 data integration examples using GIS software, cliet side mappping API's.
@@ -13,3 +14,8 @@ Data Providers:
 2. Ordnance Survey
 
 Others to follow.
+
+Usage examples of the services, apis, data Geo6 provide through Geovation
+
+Leaflet integration examples with BGS Data.
+
