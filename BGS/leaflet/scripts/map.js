@@ -20,7 +20,7 @@ var basemap_layers = [{
 // Find active layer and add it to mapped
 basemap_layers.forEach(function(layer){
     if(layer.active){
-        var layerOptions = layer.options || {}
+        let layerOptions = layer.options || {}
         current_baseMapLayer = L.tileLayer(layer.url, layerOptions);
         current_baseMapLayer.addTo(map)
     }
@@ -29,11 +29,11 @@ basemap_layers.forEach(function(layer){
 //Iterate through the BGS WMS services that are located in bgs_layers and add the layers
 if (bgs_wms_services){
     bgs_wms_services.forEach(function(bgs_service){
-        var wms_service_url = bgs_service.wms_url;
-        var wms_service_layers = bgs_service.layers;
+        let wms_service_url = bgs_service.wms_url;
+        let wms_service_layers = bgs_service.layers;
 
         wms_service_layers.forEach(function(wms_layer){
-            var layer = new L.tileLayer.wms(wms_service_url, {
+            let layer = new L.tileLayer.wms(wms_service_url, {
                 layers:wms_layer.name,
                 transparent: true,
                 format: 'image/png'
