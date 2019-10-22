@@ -8,6 +8,8 @@ Before use the proxy need to do the following:
 
 PORT=3000
 CLIENT_PROXY_URL=/proxy/wms
+#add protocol
+PROTOCOL=https
 #add domain
 BGS_DOMAIN=************
 #add username
