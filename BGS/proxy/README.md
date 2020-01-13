@@ -10,7 +10,7 @@ PORT=3000
 CLIENT_PROXY_URL=/proxy/wms
 #add protocol
 PROTOCOL=https
-#add domain
+#add domain of the endpoint of the wms service
 BGS_DOMAIN=************
 #add username
 SERV_USERNAME=*********
