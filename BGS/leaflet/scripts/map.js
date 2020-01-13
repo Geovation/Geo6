@@ -26,6 +26,10 @@ basemap_layers.forEach(function(layer){
     }
 });
 
+// Merge free with premium layers array
+if(bgs_wms_services)
+    bgs_wms_services = bgs_wms_services.concat(bgs_wms_premium_products_civil);
+
 //Iterate through the BGS WMS services that are located in bgs_layers and add the layers
 if (bgs_wms_services){
     bgs_wms_services.forEach(function(bgs_service){

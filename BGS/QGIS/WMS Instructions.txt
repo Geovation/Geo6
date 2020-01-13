@@ -6,5 +6,12 @@ A) Free BGS WMS Services
     3. Press Load and select the bgs_wms_connections.xml
     4. Press "Select all" button and Import
 
-B) Geovation available BGS WMS Services
-    TO DO
+B) Geovation available BGS Premium Product WMS Services
+    1. From the menu Layer -> Add Layer -> Add WMS/WMTS Layer
+    2. Click on the button "New"
+    3. In the field "Name" type "BGS Premium WMS" (you can actually give whatever name you wish).
+    4. In the field "Url" use one of the below WMS end points for each product
+        *Civil*: https://kwdmzaccess.bgs.ac.uk/wss/service/ags-relay/Live_AGS/httpauth/arcgis/services/SecureWMS/Bundle_BGSCivils/MapServer/WMSServer   
+    5. In the Authentication tab select Basic
+    6. Type the username and password that you have been provided by Geovation.
+    7. Press OK
